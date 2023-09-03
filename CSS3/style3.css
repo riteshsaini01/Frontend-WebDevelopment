@@ -1,0 +1,19 @@
+#box1{
+    height:300px;
+    width:300px;
+    background-color: green;
+    font-size: 20px;
+}
+#box2{
+    height: 100px;
+    width: 40%;
+    background-color: yellow;
+    margin-left: 20%;
+    font-size: 2em;
+}
+#box3{
+    margin-left: 10px;
+    width: 3em;
+    background-color: blue;
+    font-size: 2rem;
+}
