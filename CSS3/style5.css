@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    border: 2px solid black;
+}
+#container{
+    width:800px;
+    height:200px;
+    display: flex;
+    flex-direction: row-reverse;
+    /*flex-direction: column;*/
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#box1{
+    background-color: aliceblue;
+}
+#box2{
+    background-color: pink;
+    flex-shrink: 2;
+}
+#box3{
+    background-color: aqua;
+}
+#box4{
+    background-color: green;
+}
+#box5{
+    background-color: yellow;
+    align-self: baseline;
+}

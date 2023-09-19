@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: navy;
+    
+}
+div {
+    background-color: black;
+    padding:5px;
+    height: 10px;
+   
+    
+}
+#logo{
+    color:orange;
+    font-size: 25px;
+    margin-right: 1 00px;
+}
+.elements{
+    color: white;
+    margin-right: 200px;
+    
+}
+button{
+    background-color: yellow;
+    color:white;
+}
