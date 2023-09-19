@@ -1,0 +1,21 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: aquamarine;
+    border:2px solid black;
+    transition-duration: 4s;
+    transition-timing-function: steps;
+    transform:rotate(45deg);
+    transform: scale(1,2);
+
+}
+div:hover{
+    background-color: red;
+    color: aliceblue;
+    transform:scale(2);
+}
+
+div:active{ 
+    background-color: pink;
+    transform: skew(30deg);
+}
